@@ -1,5 +1,6 @@
 package com.bridgelabz.employeepayrollapp.dto;
 
+import lombok.Data;
 public class EmployeePayrollDTO {
     public String name;
     public long salary;
