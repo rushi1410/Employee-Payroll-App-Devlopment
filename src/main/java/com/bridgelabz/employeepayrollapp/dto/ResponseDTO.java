@@ -1,8 +1,7 @@
 package com.bridgelabz.employeepayrollapp.dto;
 import lombok.Data;
 
-@Data
-public class ResponseDTO {
+public @Data class ResponseDTO {
     private String message;
     private Object data;
 
@@ -10,4 +9,5 @@ public class ResponseDTO {
         this.message = message;
         this.data = data;
     }
+
 }
