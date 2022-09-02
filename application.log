@@ -1,0 +1,24 @@
+2022-09-01 19:56:11.867  INFO 536 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Starting EmployeePayrollAppApplication using Java 18.0.2.1 on Rushikesh1410 with PID 536 (E:\Bridgelabz Assignment CFP\Day4\EmployeePayrollApp\target\classes started by mrrus in E:\Bridgelabz Assignment CFP\Day4\EmployeePayrollApp)
+2022-09-01 19:56:11.869 DEBUG 536 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Running with Spring Boot v2.7.3, Spring v5.3.22
+2022-09-01 19:56:11.870  INFO 536 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : No active profile set, falling back to 1 default profile: "default"
+2022-09-01 19:56:11.917  INFO 536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-09-01 19:56:11.917  INFO 536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-09-01 19:56:12.524  INFO 536 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-09-01 19:56:12.539  INFO 536 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2022-09-01 19:56:13.090  INFO 536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-09-01 19:56:13.100  INFO 536 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-09-01 19:56:13.100  INFO 536 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-09-01 19:56:13.264  INFO 536 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-09-01 19:56:13.264  INFO 536 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1346 ms
+2022-09-01 19:56:13.346  INFO 536 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-09-01 19:56:13.558  INFO 536 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-09-01 19:56:13.933  INFO 536 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-09-01 19:56:13.973  WARN 536 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-09-01 19:56:14.132  WARN 536 --- [restartedMain] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-09-01 19:56:14.192  INFO 536 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-09-01 19:56:14.218  INFO 536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2022-09-01 19:56:14.225  INFO 536 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Started EmployeePayrollAppApplication in 2.732 seconds (JVM running for 3.533)
+2022-09-01 19:56:14.228  INFO 536 --- [restartedMain] c.b.e.EmployeePayrollAppApplication      : Employee Payroll App Started
+2022-09-01 20:20:58.907  INFO 536 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-09-01 20:20:58.910  INFO 536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-09-01 20:20:58.917  INFO 536 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
